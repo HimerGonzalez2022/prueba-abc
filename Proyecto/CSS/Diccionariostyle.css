@@ -1,0 +1,101 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 10%;
+    background-color: #e22222;
+}
+.logo{
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+}
+nav{
+    order: 1;
+    background-color: #e22222;
+}
+.nav_links{
+    list-style: none;
+    background-color: #e22222;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #e22222;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    background-color: #e22222;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+    background-color: #e22222;
+}
+.cta{
+    order: 2;
+    background-color: #e22222;
+}
+button{
+    margin-top: auto;
+    margin-left: 20px;
+    padding: 9px 15px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+h2{
+    color: blue;
+    font-weight: 90px;
+    align-items: center;
+    text-align: center;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    top: px;
+}
+span{
+    color: blue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.words{
+    color: blue;
+    align-items: center;
+    text-align: center;
+}
+input{
+    align-items: center;
+    width: 50vw;
+    outline: none;
+    padding: 10px;
+    border: 5px solid #CCD1e4;
+    font-weight: 600;
+    float: calc(right 50px);
+}
+#search{
+    align-items: center;
+}
+div #palabras{
+    text-align: center;
+    justify-content: center;
+}

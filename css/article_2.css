@@ -1,0 +1,179 @@
+#article_2{
+    background: #f0f0f0;
+    height: 500px;
+    margin-bottom: 70px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h{
+    position: relative;
+    margin: 40px 30px;
+    color: #265ED7; 
+}
+/*estilos de cajas*/
+/*contenedores*/
+
+.box_1{
+    width: 250px;
+    height: 230px;
+    background: rgb(253, 253, 253); 
+    color: #265ED7;
+    box-shadow: 25px 22px 23px -11px rgba(138,138,138,0.75);
+    transition: all 500ms;
+}
+
+.box_2{
+    width: 250px;
+    height: 230px;
+    background: rgb(253, 253, 253); 
+    color: #265ED7;
+    box-shadow: 25px 22px 23px -11px rgba(138,138,138,0.75);
+    transition: all 500ms;
+}
+
+.box_3{
+    width: 250px;
+    height: 230px;
+    background: rgb(253, 253, 253); 
+    color: #265ED7;
+    box-shadow: 25px 22px 23px -11px rgba(138,138,138,0.75);
+    transition: all 500ms;
+}
+
+.box_4{
+    width: 250px;
+    height: 230px;
+    background: rgb(253, 253, 253); 
+    color: #265ED7;
+    box-shadow: 25px 22px 23px -11px rgba(138,138,138,0.75);
+    transition: all 500ms; 
+}
+
+/*contenedores-efecto hover*/ 
+.box_1:hover{
+    width: 250px;
+    height: 230px;
+    background: rgb(253, 253, 253);
+    color: #265ED7;
+    transform: scale(1.1);
+    box-shadow: 4px 10px 24px -5px #265ED7;
+}
+
+.box_2:hover{
+    width: 250px;
+    height: 230px;
+    background: rgb(253, 253, 253);
+    color: #265ED7;
+    transform: scale(1.1);
+    box-shadow: 4px 10px 24px -5px #265ED7;
+}
+
+.box_3:hover{
+    width: 250px;
+    height: 230px;
+    background: rgb(253, 253, 253);
+    color: #265ED7;
+    transform: scale(1.1);
+    box-shadow: 4px 10px 24px -5px #265ED7;
+}
+
+.box_4:hover{
+    width: 250px;
+    height: 230px;
+    background: rgb(253, 253, 253);
+    color: #265ED7;
+    transform: scale(1.1);
+    box-shadow: 4px 10px 24px -5px #265ED7;
+}
+
+
+/*imagenes de caja*/
+
+.imagen_1{
+    width: 90%;
+    height: 900px;
+    background-image: url(/ABC-Academy/images/pexels-william-fortunato-6140714.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5%;
+    transition: all 500ms;
+}
+
+
+
+.imagen_2{
+    width: 90%;
+    height: 900px;
+    background-image: url(/ABC-Academy/images/pexels-william-fortunato-6140714.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5%;
+    transition: all 500ms;
+}
+
+
+.imagen_3{
+    width: 90%;
+    height: 900px;
+    background-image: url(/ABC-Academy/images/pexels-pixabay-60504.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5%;
+    transition: all 500ms;
+}
+
+
+
+.imagen_4{
+    width: 90%;
+    height: 900px;
+    background-image: url(/ABC-Academy/images/pexels-william-fortunato-6140714.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5%;
+    transition: all 500ms;
+}
+
+
+/*texto de cajas*/
+
+.box_1 span{
+    position: relative;
+      font-size: 20px;
+      font-weight: bold ;
+      top: 170px;
+      left: 90px;
+
+}
+
+.box_2 span{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold ;
+    top: 170px;
+    left: 80px;
+}
+
+.box_3 span{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold ;
+    top: 170px;
+    left: 80px;
+}
+
+.box_4 span{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold ;
+    top: 170px;
+      left: 80px;
+}
+
+
+
+
+

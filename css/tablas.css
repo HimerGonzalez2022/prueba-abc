@@ -1,0 +1,58 @@
+.table{
+    display:flex;
+    width: 600px;
+}
+
+.tituloo_1{width: 300px;
+    height: 40px;
+    margin: 1px;
+    background: #265ED7;
+    color: antiquewhite;
+
+}
+
+.tituloo_1 h3{
+    padding: 6px 106px;
+    font-weight: bold;
+}
+
+.tituloo_2{
+    width: 300px;
+    height: 40px;
+    margin: 1px;
+    background: #265ED7;
+    color: antiquewhite;
+    
+}
+
+.tituloo_2 h3{
+    padding: 6px 106px;
+    font-weight: bold;
+}
+
+.div_1{
+    width: 300px;
+    height: 40px;
+    background: rgb(238, 238, 238);
+   
+   
+}
+
+.div_2{
+    width: 300px;
+    height: 40px;
+    background: rgb(238, 238, 238);
+    
+   
+}
+
+.div_1 p{
+    padding: 6px 106px;
+    font-weight: bold;
+}
+
+.div_2 p{
+    padding: 6px 106px;
+    font-weight: bold;
+}
+

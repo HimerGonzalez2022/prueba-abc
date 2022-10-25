@@ -1,0 +1,127 @@
+
+:root{
+    --color-primary: #444CF7;
+    --color-title: #000;
+    --align-title: left;
+    --padding-container: 100px 0;
+    --width-container: 90%;
+    --max-width-container: 1200px;
+    --color-btn: #444CF7;
+    --text-btn: #fff;
+    --padding-btn: 20px 35px;
+    --height-shape:18em;
+}
+.ctas{
+    display: inline-block;
+    background: var(--color-btn);
+    color: var(--text-btn);
+    padding: var(--padding-btn);
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.course{
+   height: 400px;
+    --color-title: #fff;
+    --color-btn: #fff;
+    --text-btn: #444cf7;
+    color: var(--color-title);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding: 34px;
+ 
+  
+    /* align-items: center; */
+}
+
+.course__about{
+    z-index: 100;
+    align-self: center;
+    width: 97%;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    background: var(--color-primary);
+    grid-column: 3/6;
+    grid-row: 2/-2;
+   
+}
+
+.course__picture{
+  
+    margin:0;
+    grid-column: 4/1;
+    grid-row: 1/-1;
+}
+
+.course__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.course__picture--right{
+    grid-column: 1/4;
+}
+
+.course__about--left{
+    grid-column: 3/-1;
+}
+
+
+.courses{
+    height: 400px;
+     --color-title: #fff;
+     --color-btn: #fff;
+     --text-btn: #444cf7;
+     color: var(--color-title);
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-template-rows: repeat(5, 1fr);
+     padding: 34px;
+  
+   
+     /* align-items: center; */
+ }
+ 
+ .course__abouts{
+     z-index: 100;
+     align-self: center;
+     width: 97%;
+     margin: 0 auto;
+     padding: 30px;
+     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+     background: var(--color-primary);
+     grid-column: 1/4;
+     grid-row: 2/-2;
+     
+    
+ }
+ 
+ .course__pictures{
+   
+     margin:0;
+     grid-column: 3/-1;
+     grid-row: 1/-1;
+ }
+ 
+ .course__imgs{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ 
+ .course__pictures--right{
+     grid-column: 1/4;
+ }
+ 
+ .course__abouts--left{
+     grid-column: 3/-1;
+ }
+ 
+ 
+ 
+ 
